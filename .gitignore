@@ -1,0 +1,12 @@
+node_modules/
+bower_components/
+.sass-cache/
+.tmp/
+dist/
+/specs/
+coverage/
+logs/
+npm-debug.log
+*.bak
+.DS_Store
+gulp/_server-config.js

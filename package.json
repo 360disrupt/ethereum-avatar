@@ -1,0 +1,45 @@
+{
+  "name": "ethereum-avatar",
+  "version": "0.0.1",
+  "description": "A generator for unique ethereum address avatars",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [
+    "Ethereum",
+    "Avatar",
+    "Generator"
+  ],
+  "author": "360disrupt",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "canvas": "^1.6.12",
+    "chalk": "^2.4.1",
+    "crypto": "^1.0.1",
+    "debug": "^4.0.1",
+    "image-size": "^0.6.3",
+    "jimp": "^0.5.3",
+    "merge-images": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^3.0.2",
+    "gulp-coffeelint": "^0.6.0",
+    "gulp-jasmine": "^4.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-util": "^3.0.8",
+    "require-dir": "^1.0.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "dist/"
+  ]
+}
